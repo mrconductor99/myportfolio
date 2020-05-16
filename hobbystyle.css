@@ -1,0 +1,150 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Arial;
+	background: #333;
+	color: #fff; 
+	line-height: 1.6;
+	height: 100vh;
+}
+.btn
+	{
+		position: absolute;
+  		font-size: 24px;
+  		cursor: pointer;
+  		outline: none;
+  		color: #fff;
+    	background-color: green;
+   	    border: 2px solid black;
+    	box-shadow: 0 9px #999;
+    	width: 70px; 
+    	margin-top: 70px;
+    	margin-left: 10px;
+    	padding: 10px
+   	}
+	.btn:hover
+	{
+		background-color: lightgreen;
+	}
+	.btn:active 
+	{	
+  		background-color: white;
+  		color: black;
+  		box-shadow: 0 5px #666;
+  		transform: translateY(4px);
+	}
+
+.container
+{
+	width: 100%;
+	height: 100%;
+}
+
+.navbar
+{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.7);
+}
+
+.navbar ul
+{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+}
+
+.navbar ul li
+{
+	margin: 0 1rem;
+	padding: 1rem;
+}
+
+.navbar ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f4f4f4;
+}
+
+.navbar ul li a:hover
+{
+	color: skyblue;
+}
+
+h2
+{
+	margin-top: 60px;
+	font-size: 50px;	
+}
+
+section
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+
+section h1
+{
+	font-size: 4rem;
+}
+
+section p
+{
+	font-size: 1.5rem;
+	background-color: #662200;
+	width: 1100px;
+	border-radius: 25px;
+	border: 2px solid white; 
+}
+table, th, td
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+th
+{
+	font-size: 1.2em;
+	color: black;
+}
+td
+{
+	text-align: left;
+	color: black;
+}
+section#home
+{
+	background: url('https://gdurl.com/AXVB') no-repeat center center/cover;
+}
+
+section#animals
+{
+	background: url('https://gdurl.com/Lhn6') no-repeat center center/cover;
+}
+.a
+{
+	opacity: 0.8;
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;"
+}
+
+section#plants
+{
+	background: url('https://gdurl.com/01Sa') no-repeat center center/cover;
+}

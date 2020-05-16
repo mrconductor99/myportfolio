@@ -1,0 +1,125 @@
+h1
+{
+	text-align: center;
+	font-family: Arial;
+	border-radius: 25px;
+	border: 5px solid #66ffff;
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+	background-color: #ccffff;
+}
+.btn
+	{
+		position: absolute;
+  		font-size: 24px;
+  		cursor: pointer;
+  		outline: none;
+  		color: #fff;
+    	background-color: black;
+   	    border: none;
+    	box-shadow: 0 9px #999;
+    	width: 70px; 
+    	border-radius: 25px;
+	}
+	.btn:hover
+	{
+		background-color: grey;
+	}
+	.btn:active 
+	{	
+  		background-color: white;
+  		color: black;
+  		box-shadow: 0 5px #666;
+  		transform: translateY(4px);
+	}	
+h2
+{
+	text-align: center;
+	font-family: Arial;
+	border-radius: 25px;
+	border: 5px solid;
+	background: #66ffff;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	width: 500px;
+
+}
+body
+{
+	background-image: url('https://gdurl.com/dvJ0');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+.divtext
+{
+	text-align: center;
+	font-size: 20px;
+	font-family: verdana;
+	background: #8cff66;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 20px;
+}
+.divaudio
+{
+	height: 10%;
+	margin-top: 20px;
+}
+.audiop
+{
+	
+	
+}
+.div1
+{
+	background: #80ffe5;
+	margin-top: 30px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	border-radius: 25px
+}
+.div2
+{
+	background: black;
+	color: white;
+	margin-top: 30px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	border-radius: 25px
+}
+.t
+{
+	background-color: black;
+	
+}
+table
+{
+	background-color: #e6e6e6;
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;"
+}  
+table, th, td
+{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+th
+{
+	font-size: 2em;
+}
+td
+{
+	text-align: center;
+}
